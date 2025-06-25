@@ -14,7 +14,8 @@ body {
 .container-ranking {
     max-width: 480px;
     width: 100vw;
-    height: 940px; /* kembali ke tinggi tetap */
+    min-height: 100vh; /* gunakan min-height agar fleksibel */
+    height: auto;      /* biarkan tinggi mengikuti konten/device */
     margin: 0 auto !important;
     background: #fdfdfd;
     box-sizing: border-box;
@@ -58,7 +59,8 @@ body {
 .container-ranking {
     max-width: 480px;
     width: 100vw;
-    height: 940px; /* kembali ke tinggi tetap */
+    min-height: 100vh; /* gunakan min-height agar fleksibel */
+    height: auto;      /* biarkan tinggi mengikuti konten/device */
     margin: 0 auto !important;
     background: #fdfdfd;
     box-sizing: border-box;
