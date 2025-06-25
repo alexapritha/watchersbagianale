@@ -14,8 +14,7 @@ body {
 .container-ranking {
     max-width: 480px;
     width: 100vw;
-    min-height: 100vh; /* gunakan min-height agar fleksibel */
-    height: auto;      /* biarkan tinggi mengikuti konten/device */
+    height: 100vw;
     margin: 0 auto !important;
     background: #fdfdfd;
     box-sizing: border-box;
@@ -24,7 +23,6 @@ body {
     border: 1px solid #ddd;
     overflow: hidden;
     position: relative;
-    /* overflow: visible; */
 }
 
 .scrollable-content {
@@ -59,8 +57,7 @@ body {
 .container-ranking {
     max-width: 480px;
     width: 100vw;
-    min-height: 100vh; /* gunakan min-height agar fleksibel */
-    height: auto;      /* biarkan tinggi mengikuti konten/device */
+    height: 940px; /* kembali ke tinggi tetap */
     margin: 0 auto !important;
     background: #fdfdfd;
     box-sizing: border-box;
